@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Noto Sans";
+}
+.header{
+    width: 100%;
+    background-color:#ffc6d0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 100%;
+}
+.header .navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-weight: bold; 
+}
+.container-box{
+    display: flex;
+    justify-content: space-between;
+}
+.container-box .cap{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container-box b{
+    font-family: "Freehand";
+}
+h1{
+    font-weight: bold; 
+}
+.box{
+    margin: 0px auto;
+    padding: 30px 20px;
+}
+.footer{
+    width: 100%;
+    margin-top: 70px;
+    background-color: #ffc6d0;
+    display: flex;
+    justify-content: space-between;
+}
+.card img{
+    height: 280px;
+}
+@media screen and (max-width:500px){
+    .card img{
+        height: 150px;
+    }
+}
+@media (min-width:501px) and (max-width:1000px) {
+    .card img{
+        height: 200px;
+    } 
+}
